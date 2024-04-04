@@ -47,9 +47,15 @@ Facilitates prescription search by patient ID and viewing prescription history.
 6. Technologies Used:
 
 Django REST Framework: Utilized for building RESTful APIs in Django, enabling seamless communication between frontend and backend.
+
 JWT Token Authentication: Ensures secure user authentication using JSON Web Tokens.
+
 React: Frontend library for building dynamic user interfaces.
+
 React Router DOM: Used for routing within the React application.
+
 Axios: JavaScript library for making HTTP requests to the backend.
+
 Cookies-js: Library for handling cookies in JavaScript.
+
 Overall, your project demonstrates a well-structured and feature-rich Hospital Administration System, leveraging modern technologies and best practices for both backend and frontend development.
