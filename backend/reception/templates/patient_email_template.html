@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #3494e6, #ec6ead);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333333;
+            text-align: center;
+        }
+        p {
+            color: #666666;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .patient-id {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #007bff;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #333333;">Details Registration</h1>
+        <p style="color: #666666;">Dear {{ patient.name }},</p>
+        <p style="color: #666666;">Your details have been successfully recorded. Your unique patient ID is:</p>
+        <div class="patient-id" style="color: #007bff;">{{ patient.patient_id }}</div>
+        <p style="color: #666666;">If you have any questions or concerns, feel free to contact us.</p>
+        <p style="color: #666666;">Thank you for choosing our service!</p>
+        <div class="footer" style="color: #999999;">
+            <p>This email was sent by My backend App.</p>
+        </div>
+    </div>
+</body>
+</html>
