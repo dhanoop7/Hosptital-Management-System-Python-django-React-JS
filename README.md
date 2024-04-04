@@ -43,8 +43,21 @@ Supports consultation history viewing with prescription details.
 Enables pharmacists to view submitted prescriptions and patient details.
 Facilitates prescription search by patient ID and viewing prescription history.
 
+6. MySQL Database Integration:
 
-6. Technologies Used:
+MySQL is utilized as the backend database management system for storing and managing data related to the Hospital Administration System.
+It provides a robust and scalable solution for storing various types of data, including patient information, appointments, prescriptions, and consultation history.
+
+The database schema is designed to accommodate the requirements of the Hospital Administration System.
+Tables are created to represent entities such as patients, doctors, appointments, prescriptions, departments, and consultation history.
+Relationships between these entities are established using foreign keys to ensure data integrity and consistency.
+
+Django's ORM (Object-Relational Mapping) is utilized to interact with the MySQL database.
+Models are defined in Django to represent database tables, allowing seamless interaction with the database without writing raw SQL queries.
+The ORM handles tasks such as data retrieval, insertion, updating, and deletion, abstracting away the complexities of database management.
+
+
+7. Technologies Used:
 
 Django REST Framework: Utilized for building RESTful APIs in Django, enabling seamless communication between frontend and backend.
 
